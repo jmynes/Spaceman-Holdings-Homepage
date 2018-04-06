@@ -6487,6 +6487,7 @@ body {
     margin-right: 25%; } }
 @media screen and (max-width: 750px) {
   body .space-control {
+    margin-top: 28px;
     width: 100%;
     background-size: 200px; }
     body .space-control .btn-large {

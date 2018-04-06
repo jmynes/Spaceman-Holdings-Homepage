@@ -22,26 +22,30 @@ media="screen,projection"/>
     fallback if the space image does not load for some reason.
   -->
   <body>
-    <!-- TODO: Breadcrumbs instead? -->
+    <header>
+      <!-- TODO: Breadcrumbs instead? -->
 
-    <!--
-      If you want to try to make the logo better centered:
-      https://stackoverflow.com/questions/33444381/materialize-framework-responsive-logo-in-navbar
-    -->
-    <nav class="mobile-space-control">
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">
-          <img src="assets/dev-dark.png"/>
-        </a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
-        </ul>
+      <!--
+        If you want to try to make the logo better centered:
+        https://stackoverflow.com/questions/33444381/materialize-framework-responsive-logo-in-navbar
+      -->
+      <div class="navbar-fixed">
+        <nav class="mobile-space-control">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">
+              <img src="assets/dev-dark.png"/>
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">Javascript</a></li>
+              <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
+    </header>
 
     <ul class="sidenav" id="mobile-demo">
       <li><a href="sass.html">Sass</a></li>
