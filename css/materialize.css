@@ -6473,7 +6473,7 @@ body {
       border-radius: 1em; }
 
 /* Mobile styles */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 950px) {
   body .space-control .btn-large {
     width: 50%;
     margin-left: 25%;
@@ -6481,7 +6481,7 @@ body {
 @media screen and (max-width: 750px) {
   body .space-control {
     width: 100%;
-    background-size: 150px; }
+    background-size: 200px; }
     body .space-control .btn-large {
       width: 60%;
       margin-left: 20%;
