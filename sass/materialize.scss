@@ -52,7 +52,7 @@ body {
   border: 2px solid red;
 
   .space-control {
-    border: 6px solid green;
+    border: 2px solid green;
   }
   .mobile-space-control {
     border: 1px solid yellow;
@@ -138,7 +138,8 @@ body {
       visibility: visible;
 
       .nav-wrapper .brand-logo img {
-        height: 64px;
+        height: 48px;
+        margin-top: 8px;
       }
     }
   }
@@ -149,7 +150,7 @@ body {
     body {
     .mobile-space-control {
       .nav-wrapper .brand-logo img {
-        height: 56px;
+        margin-top: 4px;
       }
     }
   }
