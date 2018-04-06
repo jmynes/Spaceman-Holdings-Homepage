@@ -46,6 +46,20 @@
 @import "components/timepicker";
 
 // Custom Styles Below
+
+// Debugging
+body {
+  border: 2px solid red;
+
+  .space-control {
+    border: 6px solid green;
+  }
+  .mobile-space-control {
+    border: 1px solid yellow;
+  }
+}
+
+// Actual styles start:
 html {
   // Custom Grey space fallback color if background space image does not load.
   background: url(../assets/background.png) no-repeat center center fixed #424848;
@@ -62,14 +76,9 @@ html {
 }
 
 body {
-  // Debugging
-  border: 2px solid red;
   height: 100%;
 
   .space-control {
-    // Debugging
-    border: 6px solid green;
-
     // Find a better solution for this size fix
     background: url(../assets/dev.png) no-repeat center;
     background-size: 250px;
@@ -93,9 +102,6 @@ body {
   }
 
   .mobile-space-control {
-    // Debugging
-    border: 1px solid yellow;
-
     visibility: hidden;
   }
 }
