@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 // Color
+// Added blue spaceman #4a90e2, grey space #424848
 @import "components/color-variables";
 @import "components/color-classes";
 
@@ -41,3 +42,23 @@
 @import "components/timepicker";
 
 // Custom Styles Below
+html {
+  // Custom Grey space fallback color if background space image does not load.
+  background: url(../assets/background.png) no-repeat center center fixed #424848;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  // Set container to full viewport height, instead of defining height by contents
+  // Useful for centering on screen
+  // https://stackoverflow.com/questions/23046801/height-not-100-on-container-fluid-even-though-html-and-body-are
+  height: 100%;
+  //overflow-y: scroll;
+}
+
+body {
+  // Debugging
+  border: 2px solid red;
+  height: 100%;
+}

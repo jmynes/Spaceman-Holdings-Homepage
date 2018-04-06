@@ -6440,5 +6440,16 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
     bottom: auto;
     text-align: center;
     margin-top: 1.2rem; } }
+html {
+  background: url(../assets/background.png) no-repeat center center fixed #424848;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%; }
+
+body {
+  border: 2px solid red;
+  height: 100%; }
 
 /*# sourceMappingURL=materialize.css.map */
