@@ -65,4 +65,30 @@ body {
   // Debugging
   border: 2px solid red;
   height: 100%;
+
+  .space-control {
+    // Debugging
+    border: 6px solid green;
+
+    // Find a better solution for this size fix
+    background: url(../assets/dev.png) no-repeat center;
+    background-size: 250px;
+
+    // Flexbox solution https://stackoverflow.com/questions/14123999/center-a-div-horizontally-and-vertically
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    .btn-large {
+      width: 40%;
+      //display: inline-block; // ?
+      margin: 1em;
+      text-align: center;
+      margin-left: 30%;
+      margin-right: 30%;
+      border-radius: 1em;
+    }
+  }
 }
