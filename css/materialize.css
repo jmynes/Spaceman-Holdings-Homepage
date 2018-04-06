@@ -562,6 +562,12 @@
 .blue-text.text-accent-4 {
   color: #2962FF !important; }
 
+.blue.spaceman {
+  background-color: #4a90e2 !important; }
+
+.blue-text.text-spaceman {
+  color: #4a90e2 !important; }
+
 .light-blue {
   background-color: #03a9f4 !important; }
 
@@ -1581,6 +1587,12 @@
 
 .grey-text.text-darken-4 {
   color: #212121 !important; }
+
+.grey.space {
+  background-color: #424848 !important; }
+
+.grey-text.text-space {
+  color: #424848 !important; }
 
 .black {
   background-color: #000000 !important; }

@@ -112,7 +112,9 @@ $blue: (
   "accent-1":    #82B1FF,
   "accent-2":    #448AFF,
   "accent-3":    #2979FF,
-  "accent-4":    #2962FF
+  "accent-4":    #2962FF,
+  // Custom added for this project
+  "spaceman":    #4a90e2
 );
 
 $light-blue: (
@@ -321,7 +323,9 @@ $grey: (
   "darken-1":   #757575,
   "darken-2":   #616161,
   "darken-3":   #424242,
-  "darken-4":   #212121
+  "darken-4":   #212121,
+  // Custom added for this project, fallback background behind space png
+  "space":      #424848
 );
 
 $shades: (
