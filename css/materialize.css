@@ -6471,6 +6471,8 @@ body {
       margin-left: 30%;
       margin-right: 30%;
       border-radius: 1em; }
+  body .mobile-space-control {
+    visibility: hidden; }
 
 /* Mobile styles */
 @media screen and (max-width: 950px) {
@@ -6485,6 +6487,8 @@ body {
     body .space-control .btn-large {
       width: 60%;
       margin-left: 20%;
-      margin-right: 20%; } }
+      margin-right: 20%; }
+  body .mobile-space-control {
+    visibility: visible; } }
 
 /*# sourceMappingURL=materialize.css.map */

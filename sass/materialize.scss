@@ -91,10 +91,13 @@ body {
       border-radius: 1em;
     }
   }
+
+  .mobile-space-control {
+    visibility: hidden;
+  }
 }
 
 /* Mobile styles */
-
 @media screen and (max-width: 950px) {
   body {
     .space-control {
@@ -108,7 +111,6 @@ body {
 }
 
 @media screen and (max-width: 750px) {
-
     body {
     .space-control {
       //margin-top: 33.13334%;
@@ -120,6 +122,11 @@ body {
         margin-left: 20%;
         margin-right: 20%;
       }
+    }
+
+    // Make the navbar visible when mobile
+    .mobile-space-control {
+      visibility: visible;
     }
   }
 }
