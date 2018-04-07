@@ -6444,13 +6444,16 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
     bottom: auto;
     text-align: center;
     margin-top: 1.2rem; } }
-body {
-  border: 2px solid red; }
-  body .space-control {
-    border: 2px solid green; }
-  body .mobile-space-control {
-    border: 1px solid yellow; }
+/*body {
+  border: 2px solid red;
 
+  .space-control {
+    border: 2px solid green;
+  }
+  .mobile-space-control {
+    border: 1px solid yellow;
+  }
+}*/
 html {
   background: url(../assets/background.png) no-repeat center center fixed #424848;
   -webkit-background-size: cover;
