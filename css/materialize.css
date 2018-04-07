@@ -6529,7 +6529,9 @@ body {
       font-size: 1.215em; }
     body .modal .collapsible {
       width: 100%;
-      margin: 1em; }
+      margin: 1em;
+      box-shadow: none;
+      border: none; }
     body .modal .collapsible-header {
       font-weight: 700; }
     body .modal .collapsible-container {

@@ -1776,7 +1776,7 @@ body .space-control .middle-row{width:100%}
 body .mobile-space-control{visibility:hidden}
 body .modal{background-color:rgba(66,72,72,.88);max-height:80%}
 body .modal .modal-footer .btn-flat{font-weight:700;font-size:1.215em}
-body .modal .collapsible{width:100%;margin:1em}
+body .modal .collapsible{width:100%;margin:1em;box-shadow:none;border:none}
 body .modal .collapsible-header{font-weight:700}
 body .modal .collapsible-container{display:flex}
 body .modal p{display:block}

@@ -164,6 +164,10 @@ body {
       //border: none;
       width: 100%;
       margin: 1em;
+
+      // Comment these out to restore default box-shadow and borders (per collapsible)
+      box-shadow: none;
+      border: none;
     }
 
     .collapsible-header {
