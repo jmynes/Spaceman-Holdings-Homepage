@@ -181,6 +181,10 @@ body {
     p {
       display: block;
     }
+
+    .carousel .carousel-item {
+      width:100%;
+    }
   }
 
   .modal:focus {

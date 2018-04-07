@@ -12,3 +12,10 @@ var instance = M.Sidenav.init(elem, options);
 // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
 // var collapsibleElem = document.querySelector('.collapsible');
 // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
+
+$(document).ready(function(){
+  $('ul.tabs').tabs({
+    swipeable : true,
+    responsiveThreshold : 1920
+  });
+});

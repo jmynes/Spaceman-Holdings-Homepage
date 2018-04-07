@@ -1780,6 +1780,7 @@ body .modal .collapsible{width:100%;margin:1em;box-shadow:none;border:none}
 body .modal .collapsible-header{font-weight:700}
 body .modal .collapsible-container{display:flex}
 body .modal p{display:block}
+body .modal .carousel .carousel-item{width:100%}
 body .modal:focus{outline:0}
 @media screen and (max-width:870px){
 body .space-control{margin-top:28px;width:100%;background-size:200px}
