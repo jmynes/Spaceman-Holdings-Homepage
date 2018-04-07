@@ -1776,6 +1776,10 @@ body .space-control .middle-row{width:100%}
 body .mobile-space-control{visibility:hidden}
 body .modal{background-color:rgba(66,72,72,.88);max-height:80%}
 body .modal .modal-footer .btn-flat{font-weight:700;font-size:1.215em}
+body .modal .collapsible{width:100%;margin:1em}
+body .modal .collapsible-header{font-weight:700}
+body .modal .collapsible-container{display:flex}
+body .modal p{display:block}
 body .modal:focus{outline:0}
 @media screen and (max-width:870px){
 body .space-control{margin-top:28px;width:100%;background-size:200px}
@@ -1786,4 +1790,6 @@ body .user-links a{margin-right:1em}
 body .user-view{background-color:#4a90e2}
 body .sidenav{background:url(../assets/background.png) no-repeat center center fixed #424848}
 body .modal{max-height:80%}
+body .modal .collapsible-container{display:block;margin:0 auto}
+body .modal .collapsible{display:block;margin:0 auto;margin-bottom:1.215em;width:100%}
 }

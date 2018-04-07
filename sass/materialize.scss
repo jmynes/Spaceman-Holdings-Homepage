@@ -159,6 +159,24 @@ body {
         font-size: 1.215em;
       }
     }
+
+    .collapsible {
+      //border: none;
+      width: 100%;
+      margin: 1em;
+    }
+
+    .collapsible-header {
+      font-weight: 700;
+    }
+
+    .collapsible-container {
+      display: flex;
+    }
+
+    p {
+      display: block;
+    }
   }
 
   .modal:focus {
@@ -210,6 +228,19 @@ body {
 
     .modal {
       max-height: 80%;
+
+      .collapsible-container {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .collapsible {
+        //border: none;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1.215em;
+        width: 100%;
+      }
     }
   }
 }
