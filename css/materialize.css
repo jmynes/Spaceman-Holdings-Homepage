@@ -6504,7 +6504,7 @@ body {
       -o-user-select: none; }
     body .space-control .top-row, body .space-control .middle-row, body .space-control .bottom-row {
       height: 33.333%;
-      width: 90%;
+      width: 83%;
       margin: auto; }
       body .space-control .top-row .btn-large, body .space-control .middle-row .btn-large, body .space-control .bottom-row .btn-large {
         top: 50%;
