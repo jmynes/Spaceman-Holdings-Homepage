@@ -6493,7 +6493,12 @@ body {
       border-radius: 1em;
       margin: 0;
       margin-top: auto;
-      width: 15em; }
+      width: 15em;
+      user-select: none;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -o-user-select: none; }
     body .space-control .top-row, body .space-control .middle-row, body .space-control .bottom-row {
       height: 33.333%;
       width: 90%;

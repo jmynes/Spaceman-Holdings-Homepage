@@ -113,6 +113,13 @@ body {
       margin: 0;
       margin-top: auto;
       width: 15em;
+
+      // Don't let the text on buttons be selected
+      user-select: none;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -o-user-select: none;
     }
 
     .top-row, .middle-row, .bottom-row {
