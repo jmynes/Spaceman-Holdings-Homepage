@@ -48,16 +48,28 @@
 // Custom Styles Below
 
 // Debugging
-/*body {
+/*
+body {
   border: 2px solid red;
 
   .space-control {
-    border: 2px solid green;
+    border: 2px solid orange;
   }
   .mobile-space-control {
     border: 1px solid yellow;
   }
-}*/
+
+  .top-row {
+    border: 3px solid green;
+  }
+  .middle-row {
+    border: 3px solid blue;
+  }
+  .bottom-row {
+    border: 3px solid indigo;
+  }
+}
+*/
 
 // Actual styles start:
 html {
@@ -83,6 +95,8 @@ body {
   height: 100%;
 
   .space-control {
+    width: 66%;
+    height: 66%;
     // Find a better solution for this size fix
     background: url(../assets/dev-with-text.png) no-repeat center;
     background-size: 250px;
@@ -95,13 +109,67 @@ body {
     transform: translate(-50%, -50%);
 
     .btn-large {
-      width: 40%;
-      //display: inline-block; // ?
+      /*
+      width: 25%;
+      display: inline-block;
       margin: 1em;
       text-align: center;
       margin-left: 30%;
       margin-right: 30%;
       border-radius: 1em;
+      */
+
+      border-radius: 1em;
+      margin: 0;
+      margin-top: auto;
+      width: 30%;
+    }
+
+    .top-row {
+      height: 33.333%;
+
+      .btn-large {
+      }
+
+      .left {
+
+      }
+
+      .right {
+
+      }
+    }
+
+    .middle-row {
+      height: 33.333%;
+
+      display: block;
+      .btn-large {
+      }
+
+      .left {
+
+      }
+
+      .right {
+
+      }
+    }
+
+    .bottom-row {
+      height: 33.334%;
+
+      display: block;
+      .btn-large {
+      }
+
+      .left {
+
+      }
+
+      .right {
+
+      }
     }
     /*
     h2.subtitle {
@@ -119,19 +187,18 @@ body {
   }
 }
 
-/* Mobile styles */
-@media screen and (max-width: 950px) {
+/* Responsive Media Queries */
+@media screen and (max-width: 970px) {
   body {
     .space-control {
       .btn-large {
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;
+        width: 25%;
       }
     }
   }
 }
 
+/* Mobile Styles */
 @media screen and (max-width: 750px) {
     body {
     .space-control {
@@ -141,12 +208,7 @@ body {
       background-size: 200px;
 
       .btn-large {
-        // Undo the visibility toggle here if you want the mobile button styles to matter
         visibility: hidden;
-
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
       }
     }
 

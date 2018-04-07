@@ -37,6 +37,8 @@ media="screen,projection"/>
         If you want to try to make the logo better centered:
         https://stackoverflow.com/questions/33444381/materialize-framework-responsive-logo-in-navbar
       -->
+
+      <!-- Mobile controls -->
       <nav class="mobile-space-control">
         <div class="nav-wrapper">
           <!-- Changed this from Google Icon to Font Awesome, so that we didn't need two imports -->
@@ -73,7 +75,7 @@ media="screen,projection"/>
           </div>
         </li>
         <!-- Honestly prefer selecting text color in CSS but this is how Materialize does this -->
-        <li><a id="1" class="waves-effect waves-light white-text" href="#">Events/Talks</a></li>
+        <li><a class="waves-effect waves-light white-text" href="#">Events/Talks</a></li>
         <li><a class="waves-effect waves-light white-text" href="#">Projects</a></li>
         <li><a class="waves-effect waves-light white-text" href="#">Lorem Ipsum</a></li>
         <li><a class="waves-effect waves-light white-text" href="#">Dolor Sit Amet</a></li>
@@ -82,14 +84,23 @@ media="screen,projection"/>
       </ul>
     </header>
 
+    <!-- Desktop controls -->
     <div class="space-control">
       <!-- <h2 class="subtitle">Spaceman Holdings LLC</h2> -->
-      <a class="waves-effect waves-light btn-large blue spaceman">Events/Talks</a>
-      <a class="waves-effect waves-light btn-large blue spaceman">Projects</a>
-      <a class="waves-effect waves-light btn-large blue spaceman">Lorem Ipsum</a>
-      <a class="waves-effect waves-light btn-large blue spaceman">Dolor sit amet</a>
-      <a class="waves-effect waves-light btn-large blue spaceman">About</a>
-      <a class="waves-effect waves-light btn-large blue spaceman">Contact</a>
+      <div class="top-row">
+        <a class="left waves-effect waves-light btn-large blue spaceman">Events/Talks</a>
+        <a class="right waves-effect waves-light btn-large blue spaceman">Projects</a>
+      </div>
+
+      <div class="middle-row">
+        <a class="left waves-effect waves-light btn-large blue spaceman">Lorem Ipsum</a>
+        <a class="right waves-effect waves-light btn-large blue spaceman">Dolor sit amet</a>
+      </div>
+
+      <div class="bottom-row">
+        <a class="left waves-effect waves-light btn-large blue spaceman">About</a>
+        <a class="right waves-effect waves-light btn-large blue spaceman">Contact</a>
+      </div>
     </div>
 
     <!--JavaScript at end of body for optimized loading-->
