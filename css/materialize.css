@@ -6545,6 +6545,8 @@ body {
   body .user-view {
     background-color: #4a90e2; }
   body .sidenav {
-    background: url(../assets/background.png) no-repeat center center fixed #424848; } }
+    background: url(../assets/background.png) no-repeat center center fixed #424848; }
+  body .modal {
+    max-height: 80%; } }
 
 /*# sourceMappingURL=materialize.css.map */
