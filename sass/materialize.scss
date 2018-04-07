@@ -48,7 +48,7 @@
 // Custom Styles Below
 
 // Debugging
-/*
+
 body {
   border: 2px solid red;
 
@@ -69,7 +69,7 @@ body {
     border: 3px solid indigo;
   }
 }
-*/
+
 
 // Actual styles start:
 html {
@@ -109,16 +109,6 @@ body {
     transform: translate(-50%, -50%);
 
     .btn-large {
-      /*
-      width: 25%;
-      display: inline-block;
-      margin: 1em;
-      text-align: center;
-      margin-left: 30%;
-      margin-right: 30%;
-      border-radius: 1em;
-      */
-
       border-radius: 1em;
       margin: 0;
       margin-top: auto;
@@ -153,16 +143,6 @@ body {
       }
       */
     }
-
-    /*
-    h2.subtitle {
-      font-size: 2em;
-      text-align: center;
-
-      //position: absolute;
-      //line-height: 100%;
-    }
-    */
   }
 
   .mobile-space-control {
