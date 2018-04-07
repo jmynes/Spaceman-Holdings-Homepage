@@ -112,9 +112,7 @@ $blue: (
   "accent-1":    #82B1FF,
   "accent-2":    #448AFF,
   "accent-3":    #2979FF,
-  "accent-4":    #2962FF,
-  // Custom added for this project
-  "spaceman":    #4a90e2
+  "accent-4":    #2962FF
 );
 
 $light-blue: (
@@ -324,8 +322,12 @@ $grey: (
   "darken-2":   #616161,
   "darken-3":   #424242,
   "darken-4":   #212121,
-  // Custom added for this project, fallback background behind space png
-  "space":      #424848
+);
+
+// Custom added for this project
+$spaceman: (
+  "grey":        #424848,
+  "blue":        #4A90E2
 );
 
 $shades: (
@@ -355,6 +357,7 @@ $colors: (
   "brown": $brown,
   "blue-grey": $blue-grey,
   "grey": $grey,
+  "spaceman": $spaceman,
   "shades": $shades
 ) !default;
 

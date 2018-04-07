@@ -35,7 +35,7 @@
 // ==========================================================================
 
 // Custom changed from materialize-red lighten-2
-$primary-color: color("blue", "spaceman") !default;
+$primary-color: color("spaceman", "blue") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
