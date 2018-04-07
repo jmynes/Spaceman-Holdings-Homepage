@@ -95,7 +95,7 @@ body {
   height: 100%;
 
   .space-control {
-    width: 66%;
+    width: 60em;
     height: 66%;
     // Find a better solution for this size fix
     background: url(../assets/dev-with-text.png) no-repeat center;
@@ -122,55 +122,38 @@ body {
       border-radius: 1em;
       margin: 0;
       margin-top: auto;
-      width: 30%;
+      width: 15em;
     }
 
-    .top-row {
+    .top-row, .middle-row, .bottom-row {
       height: 33.333%;
+      width: 90%;
+      margin: auto;
 
       .btn-large {
       }
-
+      /*
       .left {
-
       }
-
       .right {
-
       }
+      */
     }
 
+    // More wide than top/bottom rows
     .middle-row {
-      height: 33.333%;
+      width: 100%;
 
-      display: block;
       .btn-large {
       }
-
+      /*
       .left {
-
       }
-
       .right {
-
       }
+      */
     }
 
-    .bottom-row {
-      height: 33.334%;
-
-      display: block;
-      .btn-large {
-      }
-
-      .left {
-
-      }
-
-      .right {
-
-      }
-    }
     /*
     h2.subtitle {
       font-size: 2em;
@@ -187,19 +170,13 @@ body {
   }
 }
 
-/* Responsive Media Queries */
-@media screen and (max-width: 970px) {
-  body {
-    .space-control {
-      .btn-large {
-        width: 25%;
-      }
-    }
-  }
-}
-
 /* Mobile Styles */
-@media screen and (max-width: 750px) {
+/*
+  Could make this better, right now the
+  only responsive background element is
+  the space around the center elements
+*/
+@media screen and (max-width: 870px) {
     body {
     .space-control {
       //margin-top: 33.13334%;
