@@ -1,3 +1,16 @@
+# Spaceman Holdings LLC Homepage
+## Built for https://blockchainspaceman.com
+### Author: Jordan Mynes (this repo, @jmynes)
+
+## Environment
+### [Materialize SASS 1.0.0-beta](http://materializecss.com/)
+  * You can compile this projects SASS into CSS using [Koala on Windows/Mac/Linux](http://koala-app.com/), or your choice of SASS compiler
+  * sass/materialize.scss imports several files from sass/components/ and compiles into materialize.css
+
+---
+
+## Materialize's README below
+
 <p align="center">
   <a href="http://materializecss.com/">
     <img src="http://materializecss.com/res/materialize.svg" width="150">
