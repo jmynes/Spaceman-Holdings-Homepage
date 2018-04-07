@@ -150,9 +150,12 @@ body {
     .mobile-space-control {
       visibility: visible;
     }
+    .user-view {
+      background-color:rgba(74, 144, 226, 1);
+    }
     .sidenav {
-      // background: url(../assets/background.png) no-repeat center center fixed #424848;
-      background-color:rgba(66,	72,	72, 0.66);
+      background: url(../assets/background.png) no-repeat center center fixed #424848;
+      // background-color:rgba(66, 72, 72, 0.66);
     }
   }
 }
