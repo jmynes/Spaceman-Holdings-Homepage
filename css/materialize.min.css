@@ -1780,7 +1780,8 @@ body .modal .collapsible{width:100%;margin:1em;box-shadow:none;border:none}
 body .modal .collapsible-header{font-weight:700}
 body .modal .collapsible-container{display:flex}
 body .modal p{display:block}
-body .modal iframe{margin:0 auto}
+body .modal .video-container{overflow:hidden;padding-bottom:56.25%;position:relative;height:0}
+body .modal .video-container iframe{left:0;top:0;height:100%;width:100%;position:absolute}
 body .modal .carousel .carousel-item{width:100%}
 body .modal:focus{outline:0}
 @media screen and (max-width:870px){

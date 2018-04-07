@@ -6538,8 +6538,17 @@ body {
       display: flex; }
     body .modal p {
       display: block; }
-    body .modal iframe {
-      margin: 0 auto; }
+    body .modal .video-container {
+      overflow: hidden;
+      padding-bottom: 56.25%;
+      position: relative;
+      height: 0; }
+    body .modal .video-container iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute; }
     body .modal .carousel .carousel-item {
       width: 100%; }
   body .modal:focus {
