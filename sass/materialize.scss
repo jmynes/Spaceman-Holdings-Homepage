@@ -48,6 +48,7 @@
 // Custom Styles Below
 
 // Debugging
+/*
 body {
   border: 2px solid red;
 
@@ -58,6 +59,7 @@ body {
     border: 1px solid yellow;
   }
 }
+*/
 
 // Actual styles start:
 html {
@@ -140,22 +142,6 @@ body {
     // Make the navbar visible when mobile
     .mobile-space-control {
       visibility: visible;
-
-      .nav-wrapper .brand-logo img {
-        height: 48px;
-        margin-top: 8px;
-      }
-    }
-  }
-}
-
-// When navbar shrinks, shrink logo as well
-@media screen and (max-width: 600px) {
-    body {
-    .mobile-space-control {
-      .nav-wrapper .brand-logo img {
-        margin-top: 4px;
-      }
     }
   }
 }
