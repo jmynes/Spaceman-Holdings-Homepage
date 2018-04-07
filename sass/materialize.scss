@@ -147,6 +147,19 @@ body {
   .mobile-space-control {
     visibility: hidden;
   }
+
+  .modal {
+    background-color:rgba(66, 72, 72, 0.88);
+    color: white;
+
+    .modal-footer {
+      background-color: #4a90e2; // Spaceman blue
+      .btn-flat {
+        color: white;
+        font-weight: 700;
+      }
+    }
+  }
 }
 
 /* Mobile Styles */
