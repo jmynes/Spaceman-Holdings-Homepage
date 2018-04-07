@@ -1,7 +1,3 @@
-/*
-  Changed primary-color from materialize-red lighten-2 to blue spaceman #4a90e2
-  (didn't touch other primary-color related variables)
-*/
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -1622,6 +1618,10 @@
 .transparent-text {
   color: transparent !important; }
 
+/*
+  Changed primary-color from materialize-red lighten-2 to spaceman blue #4a90e2
+  Changed secondary-color from teal to spaceman grey #424848
+*/
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

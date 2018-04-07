@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 // Color
-// Added blue spaceman #4a90e2, grey space #424848
-/*
-  Changed primary-color from materialize-red lighten-2 to blue spaceman #4a90e2
-  (didn't touch other primary-color related variables)
-*/
+// Added spaceman blue #4a90e2, spaceman grey #424848
 @import "components/color-variables";
 @import "components/color-classes";
 
 // Variables;
+/*
+  Changed primary-color from materialize-red lighten-2 to spaceman blue #4a90e2
+  Changed secondary-color from teal to spaceman grey #424848
+*/
 @import "components/variables";
 
 // Reset
