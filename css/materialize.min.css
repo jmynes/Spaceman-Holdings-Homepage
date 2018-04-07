@@ -1776,6 +1776,7 @@ body .space-control .middle-row{width:100%}
 body .mobile-space-control{visibility:hidden}
 body .modal{background-color:rgba(66,72,72,.88);max-height:80%}
 body .modal .modal-footer .btn-flat{font-weight:700;font-size:1.215em}
+body .modal:focus{outline:0}
 @media screen and (max-width:870px){
 body .space-control{margin-top:28px;width:100%;background-size:200px}
 body .space-control .btn-large{visibility:hidden}

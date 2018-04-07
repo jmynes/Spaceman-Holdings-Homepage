@@ -6527,6 +6527,8 @@ body {
     body .modal .modal-footer .btn-flat {
       font-weight: 700;
       font-size: 1.215em; }
+  body .modal:focus {
+    outline: none; }
 
 /* Mobile Styles */
 /*
