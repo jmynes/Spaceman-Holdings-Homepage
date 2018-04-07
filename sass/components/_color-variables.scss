@@ -326,8 +326,9 @@ $grey: (
 
 // Custom added for this project
 $spaceman: (
-  "grey":        #424848,
-  "blue":        #4A90E2
+  "base":        #4A90E2, // Blue
+  "blue":        #4A90E2, // Blue
+  "grey":        #424848  // Grey
 );
 
 $shades: (
