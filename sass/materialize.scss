@@ -128,6 +128,9 @@ body {
       background-size: 200px;
 
       .btn-large {
+        // Undo the visibility toggle here if you want the mobile button styles to matter
+        visibility: hidden;
+
         width: 60%;
         margin-left: 20%;
         margin-right: 20%;

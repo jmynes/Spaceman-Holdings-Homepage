@@ -6491,6 +6491,7 @@ body {
     width: 100%;
     background-size: 200px; }
     body .space-control .btn-large {
+      visibility: hidden;
       width: 60%;
       margin-left: 20%;
       margin-right: 20%; }
