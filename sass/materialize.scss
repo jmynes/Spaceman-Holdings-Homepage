@@ -116,6 +116,7 @@ body {
       height: 4em;
       line-height: 4em;
       font-size: 1.215em;
+      font-weight: 700;
 
       // Don't let the text on buttons be selected
       user-select: none;
@@ -150,13 +151,12 @@ body {
 
   .modal {
     background-color:rgba(66, 72, 72, 0.88);
-    color: white;
     max-height: 80%;
 
     .modal-footer {
       .btn-flat {
-        color: white;
         font-weight: 700;
+        font-size: 1.225em;
       }
     }
   }

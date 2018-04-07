@@ -1769,13 +1769,13 @@ html{background:url(../assets/background.png) no-repeat center center fixed #424
 .fa{font-size:1.5em}
 body{height:100%}
 body .space-control{width:60em;height:66%;background:url(../assets/dev-with-text.png) no-repeat center;background-size:250px;position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
-body .space-control .btn-large{border-radius:1em;margin:0;margin-top:auto;width:12em;height:4em;line-height:4em;font-size:1.215em;user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none}
+body .space-control .btn-large{border-radius:1em;margin:0;margin-top:auto;width:12em;height:4em;line-height:4em;font-size:1.215em;font-weight:700;user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none}
 body .space-control .bottom-row,body .space-control .middle-row,body .space-control .top-row{height:33.333%;width:83%;margin:auto}
 body .space-control .bottom-row .btn-large,body .space-control .middle-row .btn-large,body .space-control .top-row .btn-large{top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%)}
 body .space-control .middle-row{width:100%}
 body .mobile-space-control{visibility:hidden}
-body .modal{background-color:rgba(66,72,72,.88);color:#fff;max-height:80%}
-body .modal .modal-footer .btn-flat{color:#fff;font-weight:700}
+body .modal{background-color:rgba(66,72,72,.88);max-height:80%}
+body .modal .modal-footer .btn-flat{font-weight:700;font-size:1.225em}
 @media screen and (max-width:870px){
 body .space-control{margin-top:28px;width:100%;background-size:200px}
 body .space-control .btn-large{visibility:hidden}

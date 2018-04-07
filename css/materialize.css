@@ -6503,6 +6503,7 @@ body {
       height: 4em;
       line-height: 4em;
       font-size: 1.215em;
+      font-weight: 700;
       user-select: none;
       -moz-user-select: none;
       -khtml-user-select: none;
@@ -6522,11 +6523,10 @@ body {
     visibility: hidden; }
   body .modal {
     background-color: rgba(66, 72, 72, 0.88);
-    color: white;
     max-height: 80%; }
     body .modal .modal-footer .btn-flat {
-      color: white;
-      font-weight: 700; }
+      font-weight: 700;
+      font-size: 1.225em; }
 
 /* Mobile Styles */
 /*
