@@ -48,7 +48,7 @@
 // Custom Styles Below
 
 // Debugging
-
+/*
 body {
   border: 2px solid red;
 
@@ -69,7 +69,7 @@ body {
     border: 3px solid indigo;
   }
 }
-
+*/
 
 // Actual styles start:
 html {
@@ -101,7 +101,7 @@ body {
     background: url(../assets/dev-with-text.png) no-repeat center;
     background-size: 250px;
 
-    // Flexbox solution https://stackoverflow.com/questions/14123999/center-a-div-horizontally-and-vertically
+    // Partial flexbox solution, minus display: flex https://stackoverflow.com/questions/14123999/center-a-div-horizontally-and-vertically
     position: absolute;
     left: 50%;
     top: 50%;
@@ -121,27 +121,16 @@ body {
       margin: auto;
 
       .btn-large {
+        // Partial flexbox solution, minus display: flex https://stackoverflow.com/questions/14123999/center-a-div-horizontally-and-vertically
+        top: 50%;
+        -webkit-transform: translate(-0%, -50%);
+        transform: translate(-0%, -50%);
       }
-      /*
-      .left {
-      }
-      .right {
-      }
-      */
     }
 
     // More wide than top/bottom rows
     .middle-row {
       width: 100%;
-
-      .btn-large {
-      }
-      /*
-      .left {
-      }
-      .right {
-      }
-      */
     }
   }
 
