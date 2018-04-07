@@ -12,7 +12,7 @@
   * Otherwise, you can manually minimize CSS if you:
     * Select materialize.css in Koala (or use the relevant flag in your SASS compiler and select Output Style: CSS)
       * [Here's a graphical guide: ](https://maheshwaghmare.wordpress.com/2014/09/30/how-to-minify-css-js-less-sass/)
-      * And do this for every change. I'd instead recommend editing with materialize.min.css disabled in favor of the regular file.
+    * And do this for every change. I'd instead recommend editing with materialize.min.css disabled in favor of the regular file.
 
 ---
 
