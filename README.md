@@ -1,6 +1,8 @@
 # Spaceman Holdings LLC Homepage
 ## Built for https://blockchainspaceman.com
-### Author: Jordan Mynes (this repo, @jmynes)
+### Author: [Jordan Mynes](https://github.com/jmynes)
+
+---
 
 ## Environment
 ### [Materialize SASS 1.0.0-beta](http://materializecss.com/)
