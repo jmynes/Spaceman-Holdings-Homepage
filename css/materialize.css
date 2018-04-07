@@ -6538,6 +6538,8 @@ body {
       display: flex; }
     body .modal p {
       display: block; }
+    body .modal iframe {
+      margin: 0 auto; }
     body .modal .carousel .carousel-item {
       width: 100%; }
   body .modal:focus {
