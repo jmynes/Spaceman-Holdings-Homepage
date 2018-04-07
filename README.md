@@ -14,6 +14,9 @@
       * [Here's a graphical guide: ](https://maheshwaghmare.wordpress.com/2014/09/30/how-to-minify-css-js-less-sass/)
     * And do this for every change. I'd instead recommend editing with materialize.min.css disabled in favor of the regular file.
 
+### Font Awesome
+Replaced MaterializeCSS's Google Icon import with [Font Awesome](https://fontawesome.com/v4.7.0/icons/), because it didn't have social media icons
+
 ---
 
 ## Materialize's README below
