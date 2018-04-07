@@ -75,6 +75,10 @@ html {
   //overflow-y: scroll;
 }
 
+.fa {
+  font-size: 1.5em;
+}
+
 body {
   height: 100%;
 
@@ -149,6 +153,15 @@ body {
     // Make the navbar visible when mobile
     .mobile-space-control {
       visibility: visible;
+    }
+
+    .user-links  {
+      color: white;
+
+      a {
+        color: white;
+        margin-right: 1em;
+      }
     }
     .user-view {
       background-color:rgba(74, 144, 226, 1);

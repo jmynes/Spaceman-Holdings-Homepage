@@ -6459,6 +6459,9 @@ html {
   background-size: cover;
   height: 100%; }
 
+.fa {
+  font-size: 1.5em; }
+
 body {
   height: 100%; }
   body .space-control {
@@ -6506,6 +6509,11 @@ body {
       margin-right: 20%; }
   body .mobile-space-control {
     visibility: visible; }
+  body .user-links {
+    color: white; }
+    body .user-links a {
+      color: white;
+      margin-right: 1em; }
   body .user-view {
     background-color: #4a90e2; }
   body .sidenav {
