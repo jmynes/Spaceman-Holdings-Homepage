@@ -112,7 +112,10 @@ body {
       border-radius: 1em;
       margin: 0;
       margin-top: auto;
-      width: 15em;
+      width: 12em;
+      height: 4em;
+      line-height: 4em;
+      font-size: 1.215em;
 
       // Don't let the text on buttons be selected
       user-select: none;
@@ -147,6 +150,7 @@ body {
 }
 
 /* Mobile Styles */
+// You can implement better media queries with: http://materializecss.com/sass.html
 /*
   Could make this better, right now the
   only responsive background element is
