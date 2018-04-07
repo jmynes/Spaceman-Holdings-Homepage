@@ -6549,6 +6549,18 @@ body {
       height: 100%;
       width: 100%;
       position: absolute; }
+    body .modal input, body .modal textarea {
+      color: white; }
+    body .modal input[type=email], body .modal input[type=text], body .modal textarea {
+      margin-left: 2.5em;
+      width: calc(100% - 2.5em); }
+    body .modal .input-group i {
+      position: absolute;
+      margin-top: 0.5em; }
+    body .modal button[type="submit"] {
+      width: 10em;
+      margin-left: calc(50% - 5em);
+      margin-right: calc(50% - 5em); }
     body .modal .carousel .carousel-item {
       width: 100%; }
   body .modal:focus {
@@ -6586,6 +6598,15 @@ body {
       display: block;
       margin: 0 auto;
       margin-bottom: 1.215em;
-      width: 100%; } }
+      width: 100%; }
+    body .modal .row .col .s6 {
+      width: 100%; }
+    body .modal input[type=email], body .modal input[type=text], body .modal textarea {
+      margin-left: 1em;
+      width: calc(100% - 1.5em); }
+    body .modal .input-group i {
+      position: absolute;
+      margin-top: 0.5em;
+      margin-left: -1em; } }
 
 /*# sourceMappingURL=materialize.css.map */

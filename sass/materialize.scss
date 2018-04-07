@@ -197,6 +197,28 @@ body {
         position: absolute;
     }
 
+    input, textarea {
+      color: white;
+    }
+
+    input[type=email], input[type=text], textarea {
+      margin-left: 2.5em;
+      width: calc(100% - 2.5em);
+    }
+
+    .input-group {
+      i {
+        position: absolute;
+        margin-top: 0.5em;
+      }
+    }
+
+    button[type="submit"] {
+      width: 10em;
+      margin-left: calc(50% - 5em);
+      margin-right: calc(50% - 5em);
+    }
+
     .carousel .carousel-item {
       width: 100%;
     }
@@ -263,6 +285,23 @@ body {
         margin: 0 auto;
         margin-bottom: 1.215em;
         width: 100%;
+      }
+
+      .row .col .s6 {
+        width: 100%;
+      }
+
+      input[type=email], input[type=text], textarea {
+        margin-left: 1em;
+        width: calc(100% - 1.5em);
+      }
+
+      .input-group {
+        i {
+          position: absolute;
+          margin-top: 0.5em;
+          margin-left: -1em;
+        }
       }
     }
   }
